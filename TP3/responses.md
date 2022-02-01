@@ -28,7 +28,7 @@ Avec les paramètres par défaut dans le code d'origine :
 
 | num_lancer |  num_steps  |
 |  ----  |  ----  |
-|  1  | 180 |
+|  1  | 179 |
 |  2  | 298 |
 |  3  |  203 |
 |  4  | 316 |
@@ -39,7 +39,7 @@ Avec les paramètres par défaut dans le code d'origine :
 |  9  | 216 |
 |  10  |  211 |
 
-Le temps moyen de désamorçage de toutes les mines: 233.9 steps.
+Le temps moyen de désamorçage de toutes les mines: 233.8 steps.
 
 
 
@@ -104,7 +104,7 @@ Justifier: ajouter de nouveaux niveaux 2 et 3, 1 est avant 2 et 3 parce que quel
 |  9  | 173 |
 |  10  | 206 |
 
-Le temps moyen de désamorçage de toutes les mines: 193.8 steps < 233.9 steps en question 2.
+Le temps moyen de désamorçage de toutes les mines: 193.8 steps < 233.8 steps en question 2.
 
 En utilisant la balise, nous réalisons la communication indirecte, qui nous permet de prendre de meilleures décisions face aux sables mouvants et aux mines déjà déminées, augmentant ainsi la vitesse de déminage.
 
@@ -114,7 +114,7 @@ En utilisant la balise, nous réalisons la communication indirecte, qui nous per
 
 ## Question 7
 
-Nous observons des paires d'expériences dont les nombres des étapes sont similaires dans deux cas. Par exemple, comme le montre les figures, lorsqu'il n'y a pas de balise DANGER, lorsque les mines sont déminées en 141 étapes, time_quicksand = 33, et lorsqu'il y a la balise DANGER, lorsque les mines sont déminées en 151 étapes, time_quicksand=8. Après avoir répété plusieurs fois des expériences similaires, je pense que les résultats montrent que l'utilisation de DANGER peut réduire le temps_quicksand
+Nous observons des paires d'expériences dont les nombres des étapes sont similaires dans deux cas. Par exemple, comme le montre les figures, lorsqu'il n'y a pas de balise DANGER, lorsque les mines sont déminées en 142 étapes, time_quicksand = 33, et lorsqu'il y a la balise DANGER, lorsque les mines sont déminées en 151 étapes, time_quicksand=8. Après avoir répété plusieurs fois des expériences similaires, je pense que les résultats montrent que l'utilisation de DANGER peut réduire le temps_quicksand
 
 ![avatar](3.png)
 
